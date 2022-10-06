@@ -3,7 +3,7 @@
 """
 Created on Wed Oct  5 17:45:44 2022
 
-@author: rodrigosferreira
+@author: @_rosf
 """
 
 #coisas que precisarão ser analisadas
