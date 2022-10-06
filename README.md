@@ -12,4 +12,4 @@ São dois scripts em Python. O arquivo <code>apuracao.py</code> capturarará o j
 A cada 5 minutos esse arquivo irá criar um TXT com os dados capturados daquele momento:
     timestamp;resultados;porcentagem da apuracao
 
-O segundo arquivo <code>analise_apuracao</code> irá capturar o arquivo txt criado pela <code>apuracao.py</code> e produzirá um gráfico com a progressão da apuração.
+O segundo arquivo <code>analise_apuracao.py</code> irá capturar o arquivo txt criado pela <code>apuracao.py</code> e produzirá um gráfico com a progressão da apuração.
