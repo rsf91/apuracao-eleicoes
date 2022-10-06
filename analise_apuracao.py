@@ -6,6 +6,11 @@ Created on Wed Oct  5 17:45:44 2022
 @author: rodrigosferreira
 """
 
+#coisas que precisarão ser analisadas
+
+# Nome dos candidatos - ver se o DataFrame é diferente;
+# URL no arquivo apuracao.py
+
 import pandas as pd
 import ast
 #import matplotlib.pyplot as plt
