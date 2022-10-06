@@ -1,14 +1,14 @@
 
 
 # O código é do @BrennoSullivan, só tô colocando aqui pra ficar mais fácil pro pessoal copiar.
-# Adicionado Loop de 15 segundos e diferença de votos entre top 2.
+# Adicionado Loop de 1 minuto, diferença de votos e o log a cada 5 min do progresso
 
 """
 
 Coisas que precisam ser ajustadas:
     
     o URL do data request
-    O nome de ambos candidatos no analise apuracao
+    O nome de ambos candidatos no analise apuracao - precisa ser verificado no dia
 
 """
 
@@ -76,7 +76,7 @@ Diff de votos: {float(total_seq1.replace(',', '.')) - float(total_seq2.replace('
 
     #Aqui a gente cria o tuple de log
 
-    if x==4:
+    if x==5:
         
         log_resultados = str({json_data['cand'][0]['nm']: json_data['cand'][0]['vap'],json_data['cand'][1]['nm']: json_data['cand'][1]['vap']})
         
