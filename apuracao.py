@@ -9,6 +9,8 @@ Coisas que precisam ser ajustadas:
     
     o URL do data request
     O nome de ambos candidatos no analise apuracao - precisa ser verificado no dia
+    
+    O URL é esse aqui e deve ser algo próximo disso: https://resultados.tse.jus.br/oficial/app/index.html#/m/eleicao-cargo/1;e=e544;uf=sp;ufbu=sp;mubu=71072;zn=0001;se=0001
 
 """
 
