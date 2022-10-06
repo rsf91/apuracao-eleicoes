@@ -13,3 +13,7 @@ A cada 5 minutos esse arquivo irá criar um TXT com os dados capturados daquele 
     timestamp;resultados;porcentagem da apuracao
 
 O segundo arquivo <code>analise_apuracao.py</code> irá capturar o arquivo txt criado pela <code>apuracao.py</code> e produzirá um gráfico com a progressão da apuração.
+
+# Recomendo:
+
+Caso você já rode o pacote anaconda, recomendo usar o Spider e rodar cada arquivo em Consoles diferentes, assim um continua rodando enquanto o outro você consegue rodar o gráfico pra ver como anda a progressão
