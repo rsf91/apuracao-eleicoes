@@ -1,6 +1,6 @@
 # Apuração dos votos da Eleição 2022 em tempo real
 
-Atualização de minuto a minuto com criação de um log a cada 5 minutos do resultado e % da apuração. Devo atualizar o arquivo pré-segundo turno
+Atualização de 5 em 5 minutos com criação de um log a cada 25 minutos do resultado e % da apuração. Arquivo já atualizado para o 2o Turno das eleições de 2022.
 
 # Pré-requisitos:
 
