@@ -1,17 +1,15 @@
 
 
 # O código é do @BrennoSullivan, só tô colocando aqui pra ficar mais fácil pro pessoal copiar.
-# Adicionado Loop de 1 minuto, diferença de votos e o log a cada 5 min do progresso
+# Adicionado Loop de 5 minuto, diferença de votos e o log a cada 25 min do progresso
 
 """
 
 Coisas que precisam ser ajustadas:
     
-    o URL do data request
-    O nome de ambos candidatos no analise apuracao - precisa ser verificado no dia
+    AJUSTADO - o URL do data request
+    AJUSTADO - O nome de ambos candidatos no analise apuracao - precisa ser verificado no dia
     
-    O URL é esse aqui e deve ser algo próximo disso: https://resultados.tse.jus.br/oficial/app/index.html#/m/eleicao-cargo/1;e=e544;uf=sp;ufbu=sp;mubu=71072;zn=0001;se=0001
-
 """
 
 
@@ -29,9 +27,11 @@ n = 10
 
 while n > 0:
 
+# https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json
+
 
     data = requests.get(
-        'https://resultados.tse.jus.br/oficial/ele2022/544/dados-simplificados/br/br-c0001-e000544-r.json')
+        'https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json')
     
     #O lugar para conseguir esse caminho é no site oficial, F12, TAB NETWORK, procurar pelo termpo .json e achar algo parecido com o valor acima
     
@@ -103,7 +103,7 @@ Diff de votos: {float(total_seq1.replace(',', '.')) - float(total_seq2.replace('
         
 #        analise_apuracao.create_graph()
 
-    sleep(60)
+    sleep(60*5)
     
     x=x+1
     
