@@ -103,7 +103,7 @@ Diff de votos: {float(total_seq1.replace(',', '.')) - float(total_seq2.replace('
         
 #        analise_apuracao.create_graph()
 
-    sleep(60*5)
+    sleep(60*2)
     
     x=x+1
     
